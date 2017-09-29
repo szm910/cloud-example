@@ -18,12 +18,10 @@
     
     <modules>
         <module>../OrderService</module>
-        <module>../PriceService</module>
         <module>../ProductService</module>
-        <module>../InventoryService</module>
-        <module>../InventoryService</module>
         <module>../eureka-server</module>
         <module>../apigateway</module>
+        <module>../serverconfig</module>
     </modules>
 
     <dependencyManagement>
@@ -31,7 +29,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Camden.BUILD-SNAPSHOT</version>
+                <version>Camden.SR6</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
